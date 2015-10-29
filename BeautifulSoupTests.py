@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
+from future import standard_library
 """Unit tests for Beautiful Soup.
 
 These tests make sure the Beautiful Soup works as it should. If you
 find a bug in Beautiful Soup, the best way to express it is as a test
 case like this that fails."""
-from future import standard_library
 standard_library.install_aliases()
 from builtins import chr
 from builtins import str
